@@ -1,5 +1,7 @@
+langchain
 langchain_community
 langchain_cohere
+langgraph
 python-dotenv
 google-generativeai
 qdrant-client 
@@ -13,3 +15,31 @@ numpy
 tqdm
 pymilvus[model]
 groq
+streamlit
+bcrypt>=4.0.0 # Security & Authentication
+google-generativeai
+tiktoken>=0.5.0
+requests>=2.31.0
+urllib3>=2.0.0
+pytest>=7.4.0
+python-dateutil>=2.8.0
+
+# Optional Dependencies for Enhanced Features
+# Uncomment if needed:
+# opencv-python>=4.8.0  # For image processing
+# Pillow>=10.0.0        # For image handling
+# plotly>=5.15.0        # For data visualization
+# scikit-learn>=1.3.0   # For ML utilities
+
+# Production Dependencies
+gunicorn>=21.0.0        # For production deployment
+uvicorn>=0.23.0         # Alternative ASGI server
+
+# Development Tools (optional)
+black>=23.0.0           # Code formatting
+flake8>=6.0.0          # Linting
+mypy>=1.5.0            # Type checking
+
+
+# Database & Storage
+sqlite3
