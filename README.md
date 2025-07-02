@@ -20,7 +20,6 @@ The Role-Based RAG Assistant is a production-ready system designed for enterpris
 - **⚡ Advanced AI Model Routing**: Role-specific AI models for optimized responses
 - **💬 Persistent Conversation Memory**: Context-aware multi-turn conversations
 - **📊 Quality Evaluation**: Automated response assessment with Opik and Groq
-- **🎨 Modern UI**: ChatGPT-style interface with professional styling
 - **🔄 LangGraph Workflow**: Sophisticated state management and routing
 
 ## 🏗️ System Architecture
@@ -35,7 +34,8 @@ The Role-Based RAG Assistant is a production-ready system designed for enterpris
 
 ### Architecture Diagram
 
-![LangGraph Workflow](updated_langgraph_workflow_diagram.png)
+![image](https://github.com/user-attachments/assets/851b4a96-07fc-4c9c-8e50-c02d4bb7de2a)
+
 
 ## 🚀 Quick Start
 
