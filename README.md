@@ -81,26 +81,30 @@ Create a `.env` file with the following configurations:
 
 ```env
 # AI Models
-OPENAI_API_KEY=your_openai_api_key_here
 GEMINI_API_KEY=your_gemini_api_key_here
 COHERE_API_KEY=your_cohere_api_key_here
 GROQ_API_KEY=your_groq_api_key_here
 
 # Vector Databases
 ## Milvus (Employee & Engineering)
+## Create Databases for Employee and Engineering roles
 MILVUS_CLIENT_EMPLOYEE_URI=your_milvus_employee_uri
 MILVUS_CLIENT_EMPLOYEE_TOKEN=your_milvus_employee_token
 MILVUS_COHERE_API=your_milvus_cohere_api_key
+MILVUS_CLIENT_Engineering_URI=your_milvus_employee_uri
+MILVUS_CLIENT_Engineering_TOKEN=your_milvus_employee_token
 
 ## Qdrant (HR & Marketing)
+## Create Databases for HR and marketing roles
 QDRANT_CLIENT_HR_URL=your_qdrant_hr_url
 QDRANT_CLIENT_HR_API_KEY=your_qdrant_hr_api_key
 QDRANT_CLIENT_MARKETING_URL=your_qdrant_marketing_url
 QDRANT_CLIENT_MARKETING_API_KEY=your_qdrant_marketing_api_key
 
 ## Pinecone (Finance & C-Level)
+##Create a assistat 
 PINECONE_API_KEY=your_pinecone_api_key
-PINECONE_ENVIRONMENT=your_pinecone_environment
+
 
 # Evaluation & Monitoring
 OPIK_API_KEY=your_opik_api_key_here
@@ -108,7 +112,6 @@ OPIK_API_KEY=your_opik_api_key_here
 
 ### API Key Sources
 
-- **OpenAI**: [OpenAI Platform](https://platform.openai.com/api-keys)
 - **Gemini**: [Google AI Studio](https://aistudio.google.com/app/apikey)
 - **Cohere**: [Cohere Dashboard](https://dashboard.cohere.ai/api-keys)
 - **Groq**: [Groq Console](https://console.groq.com/keys)
