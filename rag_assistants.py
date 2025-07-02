@@ -5,7 +5,7 @@ from opik_evaluation import evaluate_llm_response
 from gemini_response import genai_response
 from cohere_response import cohere_command_A_resopnse
 
-from Finance import clevel_response, finance_response
+from Pinecone_AI_Assistant import clevel_response, finance_response
 
 
 
@@ -155,21 +155,8 @@ class EmployeeAssistant:
         # response=cohere_summarize(chunks,query)
         response=genai_response(document_text,query)
         print("Response generated:", response)
-        # print("Type of response:", type(response))
-        # if response is None:
-        #     print("evaluate_llm_response returned None!")
-        #     return "\U0001F4CB **Employee Assistant:** I couldn't find relevant information in the Employee knowledge base for your query. Please try rephrasing your question or contact support for assistance."
-        # if isinstance(response, str) and response.strip():
         return f"\U0001F4CB **Employee Assistant:**\n\n{response}"
-        # else:
-        #     print("evaluate_llm_response returned empty or non-string response!")
-        #     return "\U0001F4CB **Employee Assistant:** I couldn't find relevant information in the Employee knowledge base for your query. Please try rephrasing your question or contact support for assistance."
-
-        # except Exception as e:
-        #     print(f"Employee assistant error: {e}")
-        #     return f"\U0001F4CB **Employee Assistant Error:** An error occurred while processing your request: {str(e)}"
-
-
+       
 class EngineeringAssistant:
     """Engineering RAG Assistant using Milvus"""
 
