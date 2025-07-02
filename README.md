@@ -35,6 +35,8 @@ The Role-Based RAG Assistant is a production-ready system designed for enterpris
 ### Architecture Diagram
 
 ![image](https://github.com/user-attachments/assets/851b4a96-07fc-4c9c-8e50-c02d4bb7de2a)
+![langgraph_workflow_diagram](https://github.com/user-attachments/assets/20fc8e1b-1f5f-4a8d-98dc-58d62b087e16)
+
 
 
 ## 🚀 Quick Start
