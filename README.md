@@ -5,7 +5,6 @@
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3110/)
 [![Streamlit](https://img.shields.io/badge/streamlit-1.28.0-red.svg)](https://streamlit.io/)
 [![LangGraph](https://img.shields.io/badge/langgraph-0.0.55-green.svg)](https://github.com/langchain-ai/langgraph)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > **A sophisticated AI assistant system that provides personalized responses based on organizational roles, leveraging multiple vector databases and advanced conversation memory management.**
 
