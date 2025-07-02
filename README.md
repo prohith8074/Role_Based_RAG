@@ -29,7 +29,7 @@ The Role-Based RAG Assistant is a production-ready system designed for enterpris
 |------|----------------|----------|-------------------|
 | **Finance & C-Level** | Pinecone | GPT-4o | Direct Processing |
 | **Employee & Engineering** | Milvus | Gemini 2.5 Flash | Opik + Groq/Llama3-70b-8192 |
-| **HR & Marketing** | Qdrant | Cohere Command-R | Opik + Groq/Llama3-70b-8192 |
+| **HR & Marketing** | Qdrant | Cohere Command-A | Opik + Groq/Llama3-70b-8192 |
 
 ### Architecture Diagram
 
