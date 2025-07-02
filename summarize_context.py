@@ -46,14 +46,6 @@ def cohere_summarize(documents,query):
  
     api_key = os.getenv("COHERE_SUMMARIZE_API_KEY", "default_key")
 
-    # if api_key == "default_key":
-    #     print("No Cohere API key available, using fallback summarization")
-    #     # Fallback to simple concatenation with full content
-    #     if isinstance(documents, list):
-    #         combined_text = " ".join(
-    #             [doc.get("data", {}).get("text", "") for doc in documents])
-    #         return combined_text  # Return full content without truncation
-    #     return str(documents)  # Return full content without truncation
 
     system_message = """## Task and Context
 You will receive a query and the  long text  from a document that are  retrieved from vector databse. 
@@ -61,13 +53,9 @@ As the assistant, you must generate summries  to given long text that should con
 all the information to answer the query in detail, only from the summaries that you generates. Ensure that the 
 summarization of the text is accurate and truthful, regardless of their complexity."""
 
-    # message = """"Summarize the given list of chunks comprehensively, preserving all important details, context, and specific information without length restrictions and in detail without loosing any information. Include all relevant data points, names, numbers, and key insights from the provided documents and also column names if present. 
-    # Note: summarize each list separately in detail and then combine each list  into a single summary."""
     message=f""" 
     user_query: {query},
-    text: {documents}
-
-"""
+    text: {documents} """
     try:
         print(f"Summarizing {len(documents)} documents using Cohere...")
         co = cohere.ClientV2(api_key=api_key)
