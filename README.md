@@ -48,7 +48,7 @@ The Role-Based RAG Assistant is a production-ready system designed for enterpris
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/role-based-rag-assistant.git
+   git clone https://github.com/prohith8074/Role_Based_RAG.git
    cd role-based-rag-assistant
    ```
 
