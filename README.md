@@ -34,7 +34,6 @@ The Role-Based RAG Assistant is a production-ready system designed for enterpris
 
 ### Architecture Diagram
 
-![image](https://github.com/user-attachments/assets/851b4a96-07fc-4c9c-8e50-c02d4bb7de2a)
 ![langgraph_workflow_diagram](https://github.com/user-attachments/assets/20fc8e1b-1f5f-4a8d-98dc-58d62b087e16)
 
 
@@ -132,25 +131,6 @@ The system comes with pre-configured demo users for testing:
 | Marketing | eve@company.com | password123 | Marketing materials & campaigns |
 | C-Level | frank@company.com | password123 | Executive insights & all data |
 
-## 📁 Project Structure
-
-```
-role-based-rag-assistant/
-├── 📄 main.py                      # Main Streamlit application
-├── 🔄 langgraph_workflow.py        # LangGraph workflow engine
-├── 🤖 rag_assistants.py           # Role-specific assistant classes
-├── 💾 conversation_memory.py       # Advanced memory management
-├── 🗄️ database.py                 # SQLite database operations
-├── 🔧 utils.py                    # Authentication utilities
-├── 🎨 enhanced_fintech_ui.py      # UI styling components
-├── 📊 opik_evaluation.py          # Response evaluation system
-├── 📝 summarize_context.py        # Context summarization
-├── 📈 langgraph_visualization.py  # Workflow visualization
-├── 📋 requirements.txt            # Python dependencies
-├── ⚙️ .env.example               # Environment variables template
-├── 📖 replit.md                  # Project documentation
-└── 🖼️ updated_langgraph_workflow_diagram.png
-```
 
 ## 🛠️ Core Components
 
