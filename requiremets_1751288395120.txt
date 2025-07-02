@@ -1,0 +1,15 @@
+langchain_community
+langchain_cohere
+python-dotenv
+google-generativeai
+qdrant-client 
+cohere
+pinecone
+opik
+litellm
+pymilvus  
+pandas 
+numpy 
+tqdm
+pymilvus[model]
+groq
