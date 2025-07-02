@@ -4,7 +4,7 @@ import cohere
 import json
 
 # Get your free API key: https://dashboard.cohere.com/api-keys
-co = cohere.ClientV2(api_key="iykpfAspIP148Rui6mBxw7dFAVanQFpgjoUTjYqB")
+co = cohere.ClientV2(api_key="<Your api key>")
 
 
 
