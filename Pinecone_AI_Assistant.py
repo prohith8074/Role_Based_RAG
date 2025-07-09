@@ -13,11 +13,13 @@ assistant_finance = pc_finance.assistant.Assistant(
     assistant_name="<Your assistant name>", 
 )
 ###upload data into your pincone datasbe for the AI assistant (Finance assistant)
+### ONLY ONCE
 # response_finance = assistant_finance.upload_file(
 #     file_path="financial_summary.md",
 #     timeout=None
 # )
 ###upload data into your pincone datasbe for the Ai assistant (C-Level assistant)
+####### ONLY ONCE
 # for i in [path to your files]:
 #     response_clevel = assistant_finance.upload_file(
 #         file_path=i,
